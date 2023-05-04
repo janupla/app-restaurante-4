@@ -27,11 +27,11 @@ const Cabecera = () => {
 
             <nav className={`Cabecera-nav ${menu ? 'isActive' : ''}`}>
                 <ul className="Cabecera-ul">
-                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Item 1</a></li>
-                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Item 2</a></li>
-                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Item 3</a></li>
-                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Item 4</a></li>
-                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Item 5</a></li>
+                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Inicio</a></li>
+                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Carta café</a></li>
+                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Nosotros</a></li>
+                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Reservas</a></li>
+                    <li className="Cabecera-li"><a href="#" className="Cabecera-a">Contacto</a></li>
                 </ul>
             </nav>
 
