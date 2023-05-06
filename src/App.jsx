@@ -1,26 +1,21 @@
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import './App.css'
-import {Cabecera} from './components/Cabecera';
-import {Carta} from'./components/Carta';
-import {Reservar} from './components/Reservar';
+import Home from './views/Home';
+import Contacto from './views/Contacto';
 
 
 
 const App = () => {
   return (
-    <div className='App'>
-      <Cabecera />
-      <Carta />
-
-      <Routes>
-        <route path="/" element ={<Cabecera/>}></route>
-        <route path="/" element ={<Carta/>}></route>
-        <route path="/" element ={<Reservar/>}></route>
-      </Routes>
-
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+        <Switch>
+          <Route path="/Home" component={Home} />
+          <Route path="/contacto" component={Contacto} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 };
-
 export default App;
 
