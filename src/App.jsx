@@ -2,7 +2,7 @@ import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import './App.css'
 import Home from './views/Home';
 import Contacto from './views/Contacto';
-import Ubicacion from './components/Ubicacion';
+import Ubicacion from './views/Ubicacion';
 
 
 
