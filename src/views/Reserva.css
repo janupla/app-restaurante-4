@@ -1,0 +1,64 @@
+.reserva-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reserva-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.reserva-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reserva-container label {
+    font-weight: bold;
+}
+
+.reserva-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.reserva-container button {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.reserva-container button:hover {
+    background-color: #006400;
+}
+
+@media only screen and (max-width: 600px) {
+    .reserva-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .reserva-container h2 {
+        font-size: 20px;
+    }
+
+    .reserva-container input {
+        margin-bottom: 8px;
+    }
+
+    .reserva-container button {
+        margin-top: 8px;
+    }
+}

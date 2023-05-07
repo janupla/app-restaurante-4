@@ -1,15 +1,16 @@
 import React from 'react';
+import './Contacto.css';
 
 
 const Contacto = () => {
     return (
-        <div>
+        <div className='contacto-container'>
             <h1>Contacto</h1>
             <p>¡Hola! Por favor contáctanos utilizando los siguientes medios:</p>
             <ul>
-                <li>Teléfono: 123-456-7890</li>
-                <li>Correo electrónico: contacto@tunegocio.com</li>
-                <li>Dirección: 123 Calle Principal, Ciudad, País</li>
+                <li>Teléfono: +56944159327</li>
+                <li>Correo electrónico: contacto@aromascafe.com</li>
+                <li>Dirección: 123 Calle Principal, Viña del Mar, Chile</li>
             </ul>
 
         </div>

@@ -2,5 +2,19 @@
     margin: 0;
     padding: 0;
     border: 0;
-    
+
+}
+
+.landing-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* dos columnas de igual ancho */
+    gap: 20px;
+    /* espacio entre las columnas */
+}
+
+.contacto-container,
+.reserva-container {
+    padding: 20px;
+    /* espacio interno */
 }

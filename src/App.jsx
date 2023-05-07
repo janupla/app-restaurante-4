@@ -1,17 +1,20 @@
 import './App.css';
+import './styles.css';
 import Home from './views/Home';
 import Contacto from './views/Contacto';
-import Ubicacion from './views/Ubicacion';
 import Reserva from './views/Reserva';
 import Form from './components/Form';
+import NavBar from './views/NavBar';
+import Footer from './views/Footer';
 
 const App = () => {
   return (
     <div className='App'>
+      <NavBar />
       <Home />
-      <Contacto />
-      <Ubicacion />
       <Reserva />
+      <Contacto />
+      <Footer />
 
     </div>
   );
