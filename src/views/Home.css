@@ -1,0 +1,20 @@
+.home-container {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+    background-color: rosybrown;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
