@@ -11,7 +11,7 @@ const Contacto = () => {
                 <li>Correo electrónico: contacto@tunegocio.com</li>
                 <li>Dirección: 123 Calle Principal, Ciudad, País</li>
             </ul>
-            <Form />
+
         </div>
     );
 };
